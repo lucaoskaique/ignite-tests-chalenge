@@ -7,7 +7,6 @@ import { CreateStatementUseCase } from "./CreateStatementUseCase";
 import { ICreateStatementDTO } from "./ICreateStatementDTO";
 import { OperationType } from '../../entities/Statement';
 import { CreateStatementError } from "./CreateStatementError";
-import { IncorrectEmailOrPasswordError } from "../../../users/useCases/authenticateUser/IncorrectEmailOrPasswordError";
 
 let createStatementUseCase: CreateStatementUseCase;
 let inMemoryUsersRepository: InMemoryUsersRepository;

@@ -94,5 +94,4 @@ describe('Get Statement Operation', () => {
 
     }).rejects.toBeInstanceOf(GetStatementOperationError.StatementNotFound);
   });
-  
 });
